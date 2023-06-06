@@ -33,4 +33,13 @@ function myFunction(a, b) {
    return hrs<=1;
 }
 
-Q5. 
+Q5. Write a function that takes two date instances (a and b) as arguments. 
+It should return true if a is earlier than b. It should return false otherwise.
+Ans function myFunction(a, b) {
+   return a < b
+}
+
+Q6. How to Round Time to the Nearest Quarter Hour using JavaScript ?
+Ans. 1 hr = 60 min
+     quarter hr = 60/4 = 15 min
+     
